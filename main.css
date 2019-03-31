@@ -14,11 +14,10 @@ body{
     background-color: black;
     border-radius: 10px;
     color: #ec4a81;
-    position: absolute;
-    top: 100px;
-    left: 850px;
+    width: 20%;
     padding: 5px 10px;
     font-family: 'Orbitron', sans-serif;
+    margin:150px auto 25px auto;
 }
 
 .container {
@@ -26,7 +25,7 @@ body{
     padding: 50px;
     width: 150px;
     height: 150px;
-    margin: 200px auto;
+    margin: 0 auto;
     background-color: lightgray;
     position: relative;
     background: url("./pattern1.png");
@@ -37,9 +36,9 @@ body{
 .clock{
   position: absolute;
   top: 100px;
- left: 45px;
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   font-family: 'Orbitron', sans-serif;
+  text-align: center;
 }
